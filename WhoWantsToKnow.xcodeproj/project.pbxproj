@@ -20,6 +20,7 @@
 		7141B2C8193DB2A30084F9F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7141B2C6193DB2A30084F9F1 /* InfoPlist.strings */; };
 		7141B2CA193DB2A30084F9F1 /* WhoWantsToKnowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141B2C9193DB2A30084F9F1 /* WhoWantsToKnowTests.m */; };
 		BAB8E6E319D24E6C00621033 /* EJHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB8E6E219D24E6C00621033 /* EJHViewController.m */; };
+		BAB8E6E619D24F1200621033 /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB8E6E519D24F1200621033 /* AppSettings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7141B2C9193DB2A30084F9F1 /* WhoWantsToKnowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhoWantsToKnowTests.m; sourceTree = "<group>"; };
 		BAB8E6E119D24E6C00621033 /* EJHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EJHViewController.h; path = ../EJHViewController.h; sourceTree = "<group>"; };
 		BAB8E6E219D24E6C00621033 /* EJHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EJHViewController.m; path = ../EJHViewController.m; sourceTree = "<group>"; };
+		BAB8E6E419D24F1200621033 /* AppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppSettings.h; path = ../AppSettings.h; sourceTree = "<group>"; };
+		BAB8E6E519D24F1200621033 /* AppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppSettings.m; path = ../AppSettings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 		7141B2AA193DB2A30084F9F1 /* WhoWantsToKnow */ = {
 			isa = PBXGroup;
 			children = (
+				BAB8E6E419D24F1200621033 /* AppSettings.h */,
+				BAB8E6E519D24F1200621033 /* AppSettings.m */,
 				BAB8E6E119D24E6C00621033 /* EJHViewController.h */,
 				BAB8E6E219D24E6C00621033 /* EJHViewController.m */,
 				7141B2B3193DB2A30084F9F1 /* AppDelegate.h */,
@@ -246,6 +251,7 @@
 			files = (
 				7141B2B5193DB2A30084F9F1 /* AppDelegate.m in Sources */,
 				BAB8E6E319D24E6C00621033 /* EJHViewController.m in Sources */,
+				BAB8E6E619D24F1200621033 /* AppSettings.m in Sources */,
 				7141B2B1193DB2A30084F9F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
