@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "EJHViewController.h"
+#import "AppSettings.h"
 
 @implementation AppDelegate
 
@@ -16,10 +17,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    //We need this to appear before our view appears. Otherwise, the app will not hear the notification.
+    [AppSettings sharedInstance];
+
     
     EJHViewController *newController = [EJHViewController new];
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:newController];
     self.window.rootViewController = navController;
+
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
